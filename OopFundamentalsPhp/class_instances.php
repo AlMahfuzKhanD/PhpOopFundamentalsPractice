@@ -35,18 +35,19 @@
 
         class Cars{
             function greting(){
-
+echo "Hello Student";
             }
 
-            function greting2(){
 
-            }
         }
 
-        $the_methods = get_class_methods('Cars');
-        foreach ($the_methods as $method){
-            echo $method."<br>";
-        }
+        $bmw = new Cars();
+        $mercedes = new Cars();
+        $toyota = new Cars();
+
+        $bmw->greting();
+
+
 
 
 
